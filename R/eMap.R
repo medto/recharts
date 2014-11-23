@@ -13,7 +13,7 @@
 #' 
 #' plot(eMap(ChinaGDP))
 
-eMap = function(dat, namevar=NULL, datavar=2:ncol(dat), size = c(1024, 768), region="china", color=c("#1e90ff", "#f0ffff"),
+eMap = function(dat, namevar=NULL, datavar=2:ncol(dat), size = c(768, 576), region="china", color=c("#1e90ff", "#f0ffff"),
 	title = NULL, subtitle = NULL, title.x = "center", title.y = "top", 
 	legend = TRUE, legend.x = "left", legend.y= "top", legend.orient="horizontal", 
 	toolbox = TRUE, toolbox.orient = "horizontal", toolbox.x = "right", toolbox.y = "top", 
